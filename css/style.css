@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #F5F5DC;
 }
 
 .navigation-section{
@@ -8,9 +8,20 @@ body {
 }
 
 .jumbotron {
-    background-color: #007bff;
+    background-color: #CF8E55;
     color: #fff;
     padding: 80px 20px;
+}
+
+.nav-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    width: 60px;
 }
 
 .app-description {
@@ -19,11 +30,13 @@ body {
 }
 
 .botton-download{
-    background-color:#2c2a2a;
+    background-color:#8B4513;
     color: #f8f9fa;
     padding: 10px;
     width: 150px;
     margin-bottom: 40px;
+    border-radius: 8px;
+    border: none;
 }
 
 .card-img{
@@ -36,6 +49,11 @@ body {
 .feature-cards {
     padding: 40px 20px;
     background-color: #fff;
+    margin-bottom: 4rem;
+}
+
+.video{
+    margin-bottom: 4rem; 
 }
 
 .hero-image{
@@ -47,11 +65,12 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 70px;
+
 }
 
 .footer {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #DEB887;
+    color: #020202;
     padding: 20px 0;
     text-align: center;
 }
@@ -93,5 +112,5 @@ color:#fff;
 }
 
 .navbar-nav a:hover{
-    color: #fff;
+    color: #DEB887;
 }
