@@ -1,5 +1,6 @@
 body {
     background-color: #F5F5DC;
+    /* background-color: #BFAEA4; */
 }
 
 .navigation-section{
@@ -19,6 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #383230;
+    margin-bottom: 80px;
 }
 
 .fash img{
@@ -66,6 +68,16 @@ body {
     padding: 40px 20px;
     background-color: #fff;
     margin-bottom: 4rem;
+    margin-top:4rem ;
+}
+
+.app-description{
+    margin-top: 4rem;
+}
+
+.video{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .video{
@@ -85,8 +97,8 @@ body {
 }
 
 .footer {
-    background-color: #DEB887;
-    color: #020202;
+    background-color: #854621;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
@@ -146,6 +158,6 @@ color:#fff;
     }
 
     .fash img{
-        width: 400px;
+        width: 350px;
     }
 }
