@@ -140,7 +140,7 @@ color:#fff;
 }
 
 .navbar-nav a:hover{
-    color: #DEB887;
+    color: #854621;
 }
 
 /* media query for hero section */
@@ -159,5 +159,10 @@ color:#fff;
 
     .fash img{
         width: 350px;
+    }
+
+     /* media query for footer */
+    .footer p{
+       font-size: 12px;
     }
 }
